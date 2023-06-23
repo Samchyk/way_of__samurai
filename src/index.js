@@ -12,6 +12,7 @@ let root = createRoot(rootElement);
     <App
       state={store.getState()}
       dispatch={store.dispatch.bind(store)}
+      store={store}
     />
   );
 };
